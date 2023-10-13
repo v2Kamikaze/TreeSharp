@@ -6,5 +6,6 @@ namespace TreeSharp.Controllers;
 [Route("api")]
 public class HomeController : ControllerBase
 {
-
+    [HttpGet]
+    public IActionResult Home() => Ok();
 }
