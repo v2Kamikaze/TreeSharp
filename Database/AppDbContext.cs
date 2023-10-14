@@ -1,6 +1,6 @@
 using Microsoft.EntityFrameworkCore;
 
-namespace treeSharp.Database;
+namespace TreeSharp.Database;
 
 public class AppDbContext : DbContext
 {
